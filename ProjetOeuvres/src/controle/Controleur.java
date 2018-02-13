@@ -20,7 +20,7 @@ import meserreurs.*;
 public class Controleur extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final String ACTION_TYPE = "action";
-	private static final String LISTER_RADHERENT = "listerAdherent";
+	private static final String LISTER_ADHERENT = "listerAdherent";
 	private static final String AJOUTER_ADHERENT = "ajouterAdherent";
 	private static final String INSERER_ADHERENT = "insererAdherent";
 	private static final String ERROR_KEY = "messageErreur";
@@ -59,7 +59,7 @@ public class Controleur extends HttpServlet {
 		String actionName = request.getParameter(ACTION_TYPE);
 		String destinationPage = ERROR_PAGE;
 		// execute l'action
-		if (LISTER_RADHERENT.equals(actionName)) {
+		if (LISTER_ADHERENT.equals(actionName)) {
 			try {
 
 				Service unService = new Service();
