@@ -23,9 +23,9 @@
 			<p class="navbar-text">Gestion de l'exposition 2016</p>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#"> <span class="glyphicon glyphicon-home"></span> Accueil</a></li>
-				<li><a href="#"> <span class="glyphicon glyphicon-plus"></span> Ajout Adhérent</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-th-list"></span> Lister les adhérents</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Quitter</a></li>
+				<li><a href="Controleur?action=ajouterAdherent"> <span class="glyphicon glyphicon-plus"></span> Ajout Adhérent</a></li>
+				<li><a href="Controleur?action=listerAdherent"><span class="glyphicon glyphicon-th-list"></span> Lister les adhérents</a></li>
+				<li><a href="javascript:fermer()"><span class="glyphicon glyphicon-log-out"></span> Quitter</a></li>
 			</ul>
 		</div>
 	</nav>

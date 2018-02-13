@@ -14,3 +14,6 @@ buildNumber.properties
 *.iws
 *.iml
 *.ipr
+/out/*
+/.mvnw*
+/META-INF/
